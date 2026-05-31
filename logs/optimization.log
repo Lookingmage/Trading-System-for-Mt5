@@ -1,0 +1,24 @@
+2026-05-30 01:51:37 | INFO     | mt5ai.optimization       |   [VERIFY-1780086097] Trial 001: Sharpe=1.45 PF=1.82 DD=8.2%
+2026-05-30 01:51:37 | INFO     | mt5ai.optimization       |   [VERIFY-1780086097] Trial 002: Sharpe=1.12 PF=1.51 DD=11.7%
+2026-05-30 01:51:56 | INFO     | mt5ai.optimization       |   [VERIFY-1780086116] Trial 001: Sharpe=1.45 PF=1.82 DD=8.2%
+2026-05-30 01:51:56 | INFO     | mt5ai.optimization       |   [VERIFY-1780086116] Trial 002: Sharpe=1.12 PF=1.51 DD=11.7%
+2026-05-30 08:10:00 | INFO     | mt5ai.optimization       | WFO START: ema_trend EURUSD H1 | windows=2 trials=10
+2026-05-30 08:10:00 | INFO     | mt5ai.optimization       |   Window 1/2: IS=100 bars | OOS=30 bars
+2026-05-30 08:10:19 | INFO     | mt5ai.optimization       | WFO START: ema_trend EURUSD H1 | windows=2 trials=10
+2026-05-30 08:10:19 | INFO     | mt5ai.optimization       |   Window 1/2: IS=100 bars | OOS=30 bars
+2026-05-30 08:10:19 | INFO     | mt5ai.optimization       |     IS  Sharpe=-13.04  PF=0.00
+2026-05-30 08:10:19 | INFO     | mt5ai.optimization       |     OOS Sharpe=-10.00  PF=0.00  Trades=0
+2026-05-30 08:10:19 | INFO     | mt5ai.optimization       |   Window 2/2: IS=200 bars | OOS=30 bars
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     IS  Sharpe=-1.71  PF=0.77
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     OOS Sharpe=-10.00  PF=0.00  Trades=0
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       | WFO END: ema_trend EURUSD H1 — REJECTED | OOS Sharpe=-10.00 in 0.5s
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       | WFO START: breakout EURUSD H1 | windows=2 trials=5
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |   Window 1/2: IS=100 bars | OOS=30 bars
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     IS  Sharpe=-2.13  PF=0.82
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     OOS Sharpe=-10.00  PF=0.00  Trades=0
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |   Window 2/2: IS=200 bars | OOS=30 bars
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     IS  Sharpe=2.13  PF=1.27
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       |     OOS Sharpe=-10.00  PF=0.00  Trades=0
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       | WFO END: breakout EURUSD H1 — REJECTED | OOS Sharpe=-10.00 in 0.4s
+2026-05-30 08:10:20 | INFO     | mt5ai.optimization       | WFO START: ema_trend FAKESYM H1 | windows=2 trials=5
+2026-05-30 08:10:20 | WARNING  | mt5ai.optimization       | Insufficient data for WFO: FAKESYM H1 (0 bars)

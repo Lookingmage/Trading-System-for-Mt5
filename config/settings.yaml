@@ -1,0 +1,301 @@
+# ============================================================
+# MT5 Quantum AI — System Settings
+# ============================================================
+# IMPORTANT:
+#   - Use SPACES for indentation, never TABs.
+#   - Credentials (login, password) go in .env, not here.
+#   - Change settings here without touching Python code.
+# ============================================================
+
+# ── System ──────────────────────────────────────────────────
+system:
+  name: "MT5 Quantum AI"
+  version: "1.0.0"
+  timezone: "UTC"
+
+  # Trading mode: backtest | demo | shadow | live
+  # Start with "demo". Change to "live" only at Step 25.
+  mode: "demo"
+
+# ── MetaTrader 5 ─────────────────────────────────────────────
+mt5:
+  terminal_path: "C:/Program Files/MetaTrader 5/terminal64.exe"
+  timeout_ms: 60000
+  magic_number: 20250001        # unique ID for this bot's orders
+  max_retries: 5
+  retry_delay_seconds: 3
+
+# ── Database ─────────────────────────────────────────────────
+database:
+  path: "database/mt5_quantum_ai.db"
+  echo: false                   # set true to log all SQL (debug only)
+
+# ── Logging ──────────────────────────────────────────────────
+logging:
+  level: "INFO"                 # DEBUG | INFO | WARNING | ERROR
+  max_bytes: 10485760           # 10 MB per log file
+  backup_count: 5               # keep 5 rotated copies
+
+# ── Risk Management ──────────────────────────────────────────
+risk:
+  # Position sizing method: fixed_lot | fixed_pct | kelly
+  sizing_mode: "fixed_lot"      # always use exactly default_lot
+  risk_per_trade_pct: 1.0       # % of balance (used only in fixed_pct mode)
+
+  # Circuit breakers — system STOPS trading when hit
+  max_daily_loss_pct: 3.0       # e.g. 3% loss → stop for the day
+  max_daily_profit_pct: 5.0     # e.g. 5% profit → stop for the day (lock in)
+  max_drawdown_pct: 10.0        # e.g. 10% drawdown → stop all trading
+  max_consecutive_losses: 5     # 5 losses in a row → pause
+
+  # Entry filters
+  max_spread_pips: 30           # block entry if spread > this
+  news_filter_enabled: false    # block entries near high-impact news
+  session_filter_enabled: true  # only trade in approved sessions
+
+  # Emergency
+  circuit_breaker_enabled: true
+
+# ── Position Management ───────────────────────────────────────
+position:
+  default_lot: 0.01             # used in fixed_lot mode
+  max_lot: 1.0
+  min_lot: 0.01
+  lot_step: 0.01
+
+  # Stop Loss / Take Profit (in ATR multiples)
+  sl_atr_multiplier: 1.5
+  tp_atr_multiplier: 2.0        # RR = 1.33:1 minimum
+
+  # Breakeven (move SL to entry when price moves X ATR in profit)
+  breakeven_enabled: true
+  breakeven_atr_multiplier: 1.0
+
+  # Trailing stop (activate after breakeven)
+  trailing_stop_enabled: true
+  trailing_atr_multiplier: 1.0
+
+  # Partial close (close 50% at first TP, let rest run)
+  partial_close_enabled: true
+  partial_close_pct: 50.0       # % of position to close at TP1
+
+  # Maximum simultaneous open trades
+  max_open_trades: 3
+  max_trades_per_symbol: 1
+
+# ── Backtesting ───────────────────────────────────────────────
+backtest:
+  start_date: "2023-01-01"
+  end_date: "2024-12-31"
+  initial_balance: 10000.0
+  currency: "USD"
+  commission_per_lot: 7.0       # round-trip commission in USD
+  spread_markup_pips: 0.0       # extra spread to simulate slippage
+  tick_mode: false              # true = tick-by-tick, false = candle
+
+# ── Walk-Forward Optimization ────────────────────────────────
+optimizer:
+  in_sample_months: 6
+  out_sample_months: 2
+  walk_steps: 4
+  # Minimum performance thresholds to accept a parameter set
+  min_sharpe_ratio: 1.0
+  min_profit_factor: 1.5
+  min_win_rate_pct: 45.0
+  max_drawdown_pct: 20.0
+  n_trials: 100                 # Optuna optimization trials
+
+# ── Feature Engineering ───────────────────────────────────────
+features:
+  lookback_bars: 500            # bars to fetch for indicators
+  rsi_period: 14
+  atr_period: 14
+  adx_period: 14
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+  bb_period: 20
+  bb_std: 2.0
+  ema_periods: [20, 50, 200]
+  volume_ma_period: 20
+  stoch_k: 14
+  stoch_d: 3
+  williams_period: 14
+  cci_period: 20
+
+# ── Regime Detector ───────────────────────────────────────────
+regime:
+  # ML models to use: xgboost | lightgbm | ensemble
+  primary_model: "xgboost"
+  secondary_model: "lightgbm"
+  ensemble_enabled: true
+  confidence_threshold: 0.65    # below this = uncertain = no trade
+  retrain_interval: "weekly"    # daily | weekly | monthly
+  timeframes: ["M15", "H1", "H4"]
+
+  # Regime classes (do not change names — used in code)
+  classes:
+    - "strong_uptrend"
+    - "strong_downtrend"
+    - "weak_uptrend"
+    - "weak_downtrend"
+    - "sideways"
+    - "choppy"
+    - "breakout"
+    - "volatile"
+    - "low_volatility"
+    - "news_shock"
+
+  # Which regimes allow trading
+  tradeable_regimes:
+    - "strong_uptrend"
+    - "strong_downtrend"
+    - "weak_uptrend"
+    - "weak_downtrend"
+    - "breakout"
+
+# ── AI Decision Engine ────────────────────────────────────────
+ai_engine:
+  model: "xgboost"
+  confidence_threshold: 0.60
+  retrain_interval: "weekly"
+  feature_importance_enabled: true
+
+# ── Machine Learning ──────────────────────────────────────────
+ml_models:
+  retrain_interval: "weekly"
+  test_size: 0.2
+  cv_folds: 5
+  n_jobs: -1                    # use all CPU cores
+
+  xgboost:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+
+  lightgbm:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.05
+    num_leaves: 31
+    subsample: 0.8
+
+  random_forest:
+    n_estimators: 200
+    max_depth: 10
+    min_samples_split: 10
+
+# ── Deep Learning ─────────────────────────────────────────────
+deep_learning:
+  sequence_length: 60           # bars of history fed to LSTM/GRU
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.001
+  patience: 10                  # early stopping patience
+  validation_split: 0.15
+  device: "cpu"                 # cpu | cuda (no GPU on this machine)
+
+# ── Self-Learning ─────────────────────────────────────────────
+self_learning:
+  enabled: true
+  min_trades_before_retrain: 20 # wait for 20 closed trades
+  retrain_interval: "weekly"
+  performance_window_trades: 100
+  improvement_threshold_pct: 2.0  # new model must beat old by 2%
+
+# ── ICT / Smart Money Concepts ───────────────────────────────
+ict_smc:
+  order_block_lookback: 20      # bars to look back for order blocks
+  fvg_min_size_pips: 3          # minimum FVG size to consider valid
+  liquidity_tolerance_pips: 3   # tolerance when mapping liquidity levels
+  swing_lookback: 10            # bars for swing high/low detection
+  choch_confirmation_bars: 2    # bars needed to confirm ChoCH
+
+  # Optimal Trade Entry (OTE) Fibonacci levels
+  ote_fib_low: 0.62
+  ote_fib_high: 0.79
+
+  # Premium / Discount zone split level
+  premium_discount_level: 0.50
+
+# ── Strategy Toggles ─────────────────────────────────────────
+strategies:
+  # Classic strategies
+  ema_trend:
+    enabled: true
+    fast_ema: 20
+    mid_ema: 50
+    slow_ema: 200
+
+  breakout:
+    enabled: true
+    atr_period: 14
+    atr_multiplier: 1.5
+    lookback_bars: 20
+
+  market_structure:
+    enabled: true
+    swing_lookback: 10
+
+  mtf_trend:
+    enabled: true
+    timeframes: ["M5", "M15", "H1", "H4"]
+    require_all_aligned: true
+
+  # ICT / SMC strategies
+  order_block:
+    enabled: true
+
+  fair_value_gap:
+    enabled: true
+
+  liquidity_sweep:
+    enabled: true
+
+  session_breakout:
+    enabled: true
+
+  mss_choch:
+    enabled: true
+
+# ── Session Kill Zones (all times UTC) ───────────────────────
+sessions:
+  asian:
+    start: "00:00"
+    end: "08:00"
+
+  london_killzone:
+    start: "07:00"
+    end: "10:00"
+
+  london:
+    start: "08:00"
+    end: "16:00"
+
+  newyork_killzone:
+    start: "12:00"
+    end: "15:00"
+
+  newyork:
+    start: "13:00"
+    end: "21:00"
+
+# ── Dashboard ────────────────────────────────────────────────
+dashboard:
+  port: 8501
+  auto_refresh_seconds: 5
+  theme: "dark"
+  show_open_trades: true
+  show_closed_trades: true
+  chart_bars: 200
+
+# ── Live Trading Safety Gates ────────────────────────────────
+live_trading:
+  enabled: true            # MUST be set to true manually at Step 25
+  human_override_required: true
+  require_all_filters_pass: true
+  require_regime_approval: true
+  require_ai_approval: true
+  require_risk_approval: true

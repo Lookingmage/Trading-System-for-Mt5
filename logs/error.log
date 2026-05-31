@@ -1,0 +1,188 @@
+2026-05-30 01:51:37 | ERROR    | mt5ai.error              |   [VERIFY-1780086097] error logger -- ERROR test (this is only a test)
+2026-05-30 01:51:37 | ERROR    | mt5ai.trading            | D:\Mt5 Ai New\MT5_Quantum_AI\test_logger.py:140
+  [VERIFY-1780086097] Simulated trade error -- expect in error.log too
+
+2026-05-30 01:51:56 | ERROR    | mt5ai.error              |   [VERIFY-1780086116] error logger -- ERROR test (this is only a test)
+2026-05-30 01:51:56 | ERROR    | mt5ai.trading            | D:\Mt5 Ai New\MT5_Quantum_AI\test_logger.py:140
+  [VERIFY-1780086116] Simulated trade error -- expect in error.log too
+
+2026-05-30 02:06:47 | ERROR    | mt5ai.error              | symbol_info_tick('EURUSD') failed: (-4, 'Terminal: Not found')
+2026-05-30 08:14:12 | ERROR    | mt5ai.system             | D:\Mt5 Ai New\MT5_Quantum_AI\src\risk\manager.py:443
+CIRCUIT BREAKER TRIGGERED: Daily loss limit hit: $310.00 (limit $300.00)
+
+2026-05-30 08:14:12 | ERROR    | mt5ai.system             | D:\Mt5 Ai New\MT5_Quantum_AI\src\risk\manager.py:443
+CIRCUIT BREAKER TRIGGERED: Max drawdown hit: 12.00% (limit 10.0%)
+
+2026-05-30 08:14:12 | ERROR    | mt5ai.system             | D:\Mt5 Ai New\MT5_Quantum_AI\src\risk\manager.py:443
+CIRCUIT BREAKER TRIGGERED: Unit test shutdown
+
+2026-05-30 08:18:16 | ERROR    | mt5ai.trading            | D:\Mt5 Ai New\MT5_Quantum_AI\src\executor\executor.py:96
+LIVE TRADING BLOCKED: set live_trading.enabled=true in settings.yaml to trade live
+
+2026-05-30 08:50:42 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 08:56:53 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 08:57:21 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 09:01:34 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 09:02:02 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 09:03:12 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 09:04:00 | ERROR    | mt5ai.error              | All 5 order attempts failed for EURUSD
+2026-05-30 09:06:19 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:20 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:25 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:25 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:30 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:31 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:36 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:36 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:42 | ERROR    | mt5ai.error              | Error processing USDJPY: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:06:42 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 372, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 436, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 487, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:12:18 | ERROR    | mt5ai.error              | LIVE TRADING BLOCKED: live_trading.enabled is false.
+To enable live trading, edit config/settings.yaml:
+  live_trading:
+    enabled: true
+Then re-run: py -3.11 main.py --mode live
+2026-05-30 09:13:44 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:13:44 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 393, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 457, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 508, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:14:45 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:14:45 | ERROR    | mt5ai.error              | Error processing BTCUSD: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+Traceback (most recent call last):
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 393, in _run_one_cycle
+    self._process_symbol(sym, can_trade, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 457, in _process_symbol
+    self._process_signal(signal, feat_row, regime_result, summary)
+  File "D:\Mt5 Ai New\MT5_Quantum_AI\main.py", line 508, in _process_signal
+    f"TRADE OPENED: #{trade_id} "
+ValueError: Invalid format specifier '.2f if ai_decision else 'N/A'' for object of type 'float'
+2026-05-30 09:15:46 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:16:47 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:17:21 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:18:21 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:19:22 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:20:23 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:21:24 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:22:25 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:24:45 | ERROR    | mt5ai.error              | All 5 order attempts failed for AUDUSD
+2026-05-30 09:24:46 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:25:47 | ERROR    | mt5ai.error              | All 5 order attempts failed for AUDUSD
+2026-05-30 09:25:47 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:26:48 | ERROR    | mt5ai.error              | All 5 order attempts failed for AUDUSD
+2026-05-30 09:26:49 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:27:52 | ERROR    | mt5ai.error              | All 5 order attempts failed for AUDUSD
+2026-05-30 09:27:52 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:27:54 | ERROR    | mt5ai.error              | copy_ticks_range(EURUSDc) failed: (1, 'Success')
+2026-05-30 09:27:55 | ERROR    | mt5ai.error              | copy_ticks_range(GBPUSDc) failed: (1, 'Success')
+2026-05-30 09:27:55 | ERROR    | mt5ai.error              | copy_ticks_range(AUDUSDc) failed: (1, 'Success')
+2026-05-30 09:28:53 | ERROR    | mt5ai.error              | All 5 order attempts failed for AUDUSD
+2026-05-30 09:28:54 | ERROR    | mt5ai.error              | All 5 order attempts failed for USDJPY
+2026-05-30 09:29:51 | ERROR    | mt5ai.error              | copy_ticks_range(EURUSDc) failed: (1, 'Success')
+2026-05-30 09:29:51 | ERROR    | mt5ai.error              | copy_ticks_range(GBPUSDc) failed: (1, 'Success')
+2026-05-30 09:29:51 | ERROR    | mt5ai.error              | copy_ticks_range(AUDUSDc) failed: (1, 'Success')
+2026-05-31 13:30:36 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:30:39 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:30:42 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:30:45 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:30:48 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:30:48 | ERROR    | mt5ai.error              | MT5: all 5 connection attempts failed
+2026-05-31 13:30:48 | ERROR    | mt5ai.system             | D:\Mt5 Ai New\MT5_Quantum_AI\main.py:372
+Reconnect failed — skipping cycle
+
+2026-05-31 13:31:48 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:31:51 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:31:54 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?
+2026-05-31 13:31:57 | ERROR    | mt5ai.error              | MT5 initialize() failed: (-6, 'Terminal: Authorization failed'). Is MetaTrader 5 open?

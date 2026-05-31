@@ -1,0 +1,370 @@
+2026-05-30 01:51:37 | INFO     | mt5ai.backtest           |   [VERIFY-1780086097] EURUSD BUY 2023-01-15 08:15 → +25.30 USD
+2026-05-30 01:51:37 | INFO     | mt5ai.backtest           |   [VERIFY-1780086097] XAUUSD SELL 2023-01-17 14:22 → -18.00 USD
+2026-05-30 01:51:56 | INFO     | mt5ai.backtest           |   [VERIFY-1780086116] EURUSD BUY 2023-01-15 08:15 → +25.30 USD
+2026-05-30 01:51:56 | INFO     | mt5ai.backtest           |   [VERIFY-1780086116] XAUUSD SELL 2023-01-17 14:22 → -18.00 USD
+2026-05-30 02:47:34 | INFO     | mt5ai.backtest           | Backtest START: EURUSD H1 | balance=$10,000 lot=0.01 commission=$7.0/lot
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           | Simulating 290 bars (2026-05-13 19:00 → 2026-05-29 20:00)
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.17129 SL=1.17205 TP=1.16951
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.17129 exit=1.17205 pnl=$-0.83
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.17178 SL=1.17206 TP=1.17051
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.17178 exit=1.17051 pnl=$+1.20
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.17070 SL=1.17013 TP=1.17173
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.17070 exit=1.17013 pnl=$-0.64
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16992 SL=1.17076 TP=1.16831
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16992 exit=1.16831 pnl=$+1.54
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16781 SL=1.16900 TP=1.16591
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16781 exit=1.16591 pnl=$+1.83
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16550 SL=1.16653 TP=1.16383
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16550 exit=1.16383 pnl=$+1.60
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16320 SL=1.16497 TP=1.16143
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16320 exit=1.16497 pnl=$-1.84
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16489 SL=1.16605 TP=1.16267
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16489 exit=1.16267 pnl=$+2.15
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16294 SL=1.16589 TP=1.16124
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16294 exit=1.16124 pnl=$+1.63
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16136 SL=1.16217 TP=1.15931
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16136 exit=1.16217 pnl=$-0.88
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16214 SL=1.16158 TP=1.16304
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16214 exit=1.16304 pnl=$+0.83
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16353 SL=1.16581 TP=1.16136
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16353 exit=1.16581 pnl=$-2.35
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16443 SL=1.16248 TP=1.16661
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16443 exit=1.16248 pnl=$-2.02
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16231 SL=1.16336 TP=1.16023
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16231 exit=1.16023 pnl=$+2.01
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15954 SL=1.16071 TP=1.15724
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15954 exit=1.16071 pnl=$-1.24
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16103 SL=1.15910 TP=1.16174
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16103 exit=1.15910 pnl=$-2.00
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15899 SL=1.15961 TP=1.15703
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15899 exit=1.15961 pnl=$-0.69
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16006 SL=1.15913 TP=1.16167
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16006 exit=1.15913 pnl=$-1.00
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15909 SL=1.15963 TP=1.15720
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15909 exit=1.15963 pnl=$-0.61
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [breakout] OPEN BUY EURUSD @ 1.16178 SL=1.16083 TP=1.16419
+2026-05-30 02:47:35 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16178 exit=1.16419 pnl=$+2.34
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16172 SL=1.16336 TP=1.15954
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16172 exit=1.15954 pnl=$+2.11
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16068 SL=1.16260 TP=1.15846
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16068 exit=1.16260 pnl=$-1.99
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16072 SL=1.16371 TP=1.15797
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16072 exit=1.15797 pnl=$+2.68
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15925 SL=1.16011 TP=1.15514
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15925 exit=1.16011 pnl=$-0.93
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16244 SL=1.16379 TP=1.15850
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16244 exit=1.16379 pnl=$-1.42
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16364 SL=1.16314 TP=1.16605
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16364 exit=1.16314 pnl=$-0.57
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16372 SL=1.16319 TP=1.16582
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16372 exit=1.16319 pnl=$-0.60
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16293 SL=1.16545 TP=1.16154
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16293 exit=1.16545 pnl=$-2.59
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [liquidity_sweep] OPEN SELL EURUSD @ 1.16412 SL=1.16520 TP=1.16235
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16412 exit=1.16235 pnl=$+1.70
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16171 SL=1.16639 TP=1.15990
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16171 exit=1.15990 pnl=$+1.74
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.15986 SL=1.16123 TP=1.15784
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15986 exit=1.16123 pnl=$-1.44
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16115 SL=1.15836 TP=1.16171
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16115 exit=1.16171 pnl=$+0.49
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16125 SL=1.15834 TP=1.16164
+2026-05-30 02:47:36 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16125 exit=1.16164 pnl=$+0.32
+2026-05-30 02:47:37 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16360 SL=1.16173 TP=1.16734
+2026-05-30 02:47:37 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16360 exit=1.16734 pnl=$+3.67
+2026-05-30 02:47:37 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16680 SL=1.16503 TP=1.16902
+2026-05-30 02:47:37 | INFO     | mt5ai.backtest           |   [EOD] BUY EURUSD closed at data end | pnl=$-0.78
+2026-05-30 02:47:37 | INFO     | mt5ai.backtest           | Backtest END: EURUSD H1 | trades=35 net_pnl=$+3.42 win_rate=45.7%
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           | Backtest START: EURUSD H1 | balance=$10,000 lot=0.01 commission=$7.0/lot
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           | Simulating 290 bars (2026-05-13 19:00 → 2026-05-29 20:00)
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.17129 SL=1.17205 TP=1.16951
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.17129 exit=1.17205 pnl=$-0.83
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.17178 SL=1.17206 TP=1.17051
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.17178 exit=1.17051 pnl=$+1.20
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.17070 SL=1.17013 TP=1.17173
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.17070 exit=1.17013 pnl=$-0.64
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16992 SL=1.17076 TP=1.16831
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16992 exit=1.16831 pnl=$+1.54
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16781 SL=1.16900 TP=1.16591
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16781 exit=1.16591 pnl=$+1.83
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16550 SL=1.16653 TP=1.16383
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16550 exit=1.16383 pnl=$+1.60
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16320 SL=1.16497 TP=1.16143
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16320 exit=1.16497 pnl=$-1.84
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16489 SL=1.16605 TP=1.16267
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16489 exit=1.16267 pnl=$+2.15
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16294 SL=1.16589 TP=1.16124
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16294 exit=1.16124 pnl=$+1.63
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16136 SL=1.16217 TP=1.15931
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16136 exit=1.16217 pnl=$-0.88
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16214 SL=1.16158 TP=1.16304
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16214 exit=1.16304 pnl=$+0.83
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16353 SL=1.16581 TP=1.16136
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16353 exit=1.16581 pnl=$-2.35
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16443 SL=1.16248 TP=1.16661
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16443 exit=1.16248 pnl=$-2.02
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16231 SL=1.16336 TP=1.16023
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16231 exit=1.16023 pnl=$+2.01
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15954 SL=1.16071 TP=1.15724
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15954 exit=1.16071 pnl=$-1.24
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16103 SL=1.15910 TP=1.16174
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16103 exit=1.15910 pnl=$-2.00
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15899 SL=1.15961 TP=1.15703
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15899 exit=1.15961 pnl=$-0.69
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16006 SL=1.15913 TP=1.16167
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16006 exit=1.15913 pnl=$-1.00
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15909 SL=1.15963 TP=1.15720
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15909 exit=1.15963 pnl=$-0.61
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [breakout] OPEN BUY EURUSD @ 1.16178 SL=1.16083 TP=1.16419
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16178 exit=1.16419 pnl=$+2.34
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16172 SL=1.16336 TP=1.15954
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16172 exit=1.15954 pnl=$+2.11
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16068 SL=1.16260 TP=1.15846
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16068 exit=1.16260 pnl=$-1.99
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16072 SL=1.16371 TP=1.15797
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16072 exit=1.15797 pnl=$+2.68
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15925 SL=1.16011 TP=1.15514
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15925 exit=1.16011 pnl=$-0.93
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16244 SL=1.16379 TP=1.15850
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16244 exit=1.16379 pnl=$-1.42
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16364 SL=1.16314 TP=1.16605
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16364 exit=1.16314 pnl=$-0.57
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16372 SL=1.16319 TP=1.16582
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16372 exit=1.16319 pnl=$-0.60
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16293 SL=1.16545 TP=1.16154
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16293 exit=1.16545 pnl=$-2.59
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [liquidity_sweep] OPEN SELL EURUSD @ 1.16412 SL=1.16520 TP=1.16235
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16412 exit=1.16235 pnl=$+1.70
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16171 SL=1.16639 TP=1.15990
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16171 exit=1.15990 pnl=$+1.74
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.15986 SL=1.16123 TP=1.15784
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15986 exit=1.16123 pnl=$-1.44
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16115 SL=1.15836 TP=1.16171
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16115 exit=1.16171 pnl=$+0.49
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16125 SL=1.15834 TP=1.16164
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16125 exit=1.16164 pnl=$+0.32
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16360 SL=1.16173 TP=1.16734
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16360 exit=1.16734 pnl=$+3.67
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16680 SL=1.16503 TP=1.16902
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           |   [EOD] BUY EURUSD closed at data end | pnl=$-0.78
+2026-05-30 02:48:15 | INFO     | mt5ai.backtest           | Backtest END: EURUSD H1 | trades=35 net_pnl=$+3.42 win_rate=45.7%
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           | Backtest START: EURUSD H1 | balance=$10,000 lot=0.01 commission=$7.0/lot
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           | Simulating 290 bars (2026-05-13 19:00 → 2026-05-29 20:00)
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.17129 SL=1.17205 TP=1.16951
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.17129 exit=1.17205 pnl=$-0.83
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.17178 SL=1.17206 TP=1.17051
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.17178 exit=1.17051 pnl=$+1.20
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.17070 SL=1.17013 TP=1.17173
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.17070 exit=1.17013 pnl=$-0.64
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16992 SL=1.17076 TP=1.16831
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16992 exit=1.16831 pnl=$+1.54
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16781 SL=1.16900 TP=1.16591
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16781 exit=1.16591 pnl=$+1.83
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16550 SL=1.16653 TP=1.16383
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16550 exit=1.16383 pnl=$+1.60
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16320 SL=1.16497 TP=1.16143
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16320 exit=1.16497 pnl=$-1.84
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16489 SL=1.16605 TP=1.16267
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16489 exit=1.16267 pnl=$+2.15
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16294 SL=1.16589 TP=1.16124
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16294 exit=1.16124 pnl=$+1.63
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16136 SL=1.16217 TP=1.15931
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16136 exit=1.16217 pnl=$-0.88
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16214 SL=1.16158 TP=1.16304
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16214 exit=1.16304 pnl=$+0.83
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16353 SL=1.16581 TP=1.16136
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16353 exit=1.16581 pnl=$-2.35
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16443 SL=1.16248 TP=1.16661
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16443 exit=1.16248 pnl=$-2.02
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16231 SL=1.16336 TP=1.16023
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16231 exit=1.16023 pnl=$+2.01
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15954 SL=1.16071 TP=1.15724
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15954 exit=1.16071 pnl=$-1.24
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16103 SL=1.15910 TP=1.16174
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16103 exit=1.15910 pnl=$-2.00
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15899 SL=1.15961 TP=1.15703
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15899 exit=1.15961 pnl=$-0.69
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16006 SL=1.15913 TP=1.16167
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16006 exit=1.15913 pnl=$-1.00
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15909 SL=1.15963 TP=1.15720
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15909 exit=1.15963 pnl=$-0.61
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [breakout] OPEN BUY EURUSD @ 1.16178 SL=1.16083 TP=1.16419
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16178 exit=1.16419 pnl=$+2.34
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16172 SL=1.16336 TP=1.15954
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16172 exit=1.15954 pnl=$+2.11
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16068 SL=1.16260 TP=1.15846
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16068 exit=1.16260 pnl=$-1.99
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16072 SL=1.16371 TP=1.15797
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16072 exit=1.15797 pnl=$+2.68
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15925 SL=1.16011 TP=1.15514
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15925 exit=1.16011 pnl=$-0.93
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16244 SL=1.16379 TP=1.15850
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16244 exit=1.16379 pnl=$-1.42
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16364 SL=1.16314 TP=1.16605
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16364 exit=1.16314 pnl=$-0.57
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16372 SL=1.16319 TP=1.16582
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16372 exit=1.16319 pnl=$-0.60
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16293 SL=1.16545 TP=1.16154
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16293 exit=1.16545 pnl=$-2.59
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [liquidity_sweep] OPEN SELL EURUSD @ 1.16412 SL=1.16520 TP=1.16235
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16412 exit=1.16235 pnl=$+1.70
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16171 SL=1.16639 TP=1.15990
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16171 exit=1.15990 pnl=$+1.74
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.15986 SL=1.16123 TP=1.15784
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15986 exit=1.16123 pnl=$-1.44
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16115 SL=1.15836 TP=1.16171
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16115 exit=1.16171 pnl=$+0.49
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16125 SL=1.15834 TP=1.16164
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16125 exit=1.16164 pnl=$+0.32
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16360 SL=1.16173 TP=1.16734
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16360 exit=1.16734 pnl=$+3.67
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16680 SL=1.16503 TP=1.16902
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           |   [EOD] BUY EURUSD closed at data end | pnl=$-0.78
+2026-05-30 08:05:42 | INFO     | mt5ai.backtest           | Backtest END: EURUSD H1 | trades=35 net_pnl=$+3.42 win_rate=45.7%
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           | Backtest START: EURUSD H1 | balance=$10,000 lot=0.01 commission=$7.0/lot
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           | Simulating 290 bars (2026-05-13 19:00 → 2026-05-29 20:00)
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.17129 SL=1.17205 TP=1.16951
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.17129 exit=1.17205 pnl=$-0.83
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.17178 SL=1.17206 TP=1.17051
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.17178 exit=1.17051 pnl=$+1.20
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.17070 SL=1.17013 TP=1.17173
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.17070 exit=1.17013 pnl=$-0.64
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16992 SL=1.17076 TP=1.16831
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16992 exit=1.16831 pnl=$+1.54
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16781 SL=1.16900 TP=1.16591
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16781 exit=1.16591 pnl=$+1.83
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16550 SL=1.16653 TP=1.16383
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16550 exit=1.16383 pnl=$+1.60
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16320 SL=1.16497 TP=1.16143
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16320 exit=1.16497 pnl=$-1.84
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16489 SL=1.16605 TP=1.16267
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16489 exit=1.16267 pnl=$+2.15
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16294 SL=1.16589 TP=1.16124
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16294 exit=1.16124 pnl=$+1.63
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16136 SL=1.16217 TP=1.15931
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16136 exit=1.16217 pnl=$-0.88
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16214 SL=1.16158 TP=1.16304
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16214 exit=1.16304 pnl=$+0.83
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16353 SL=1.16581 TP=1.16136
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16353 exit=1.16581 pnl=$-2.35
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16443 SL=1.16248 TP=1.16661
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16443 exit=1.16248 pnl=$-2.02
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16231 SL=1.16336 TP=1.16023
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16231 exit=1.16023 pnl=$+2.01
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15954 SL=1.16071 TP=1.15724
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15954 exit=1.16071 pnl=$-1.24
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16103 SL=1.15910 TP=1.16174
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16103 exit=1.15910 pnl=$-2.00
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15899 SL=1.15961 TP=1.15703
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15899 exit=1.15961 pnl=$-0.69
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16006 SL=1.15913 TP=1.16167
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16006 exit=1.15913 pnl=$-1.00
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15909 SL=1.15963 TP=1.15720
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15909 exit=1.15963 pnl=$-0.61
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [breakout] OPEN BUY EURUSD @ 1.16178 SL=1.16083 TP=1.16419
+2026-05-30 08:07:18 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16178 exit=1.16419 pnl=$+2.34
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16172 SL=1.16336 TP=1.15954
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16172 exit=1.15954 pnl=$+2.11
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16068 SL=1.16260 TP=1.15846
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16068 exit=1.16260 pnl=$-1.99
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16072 SL=1.16371 TP=1.15797
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16072 exit=1.15797 pnl=$+2.68
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15925 SL=1.16011 TP=1.15514
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15925 exit=1.16011 pnl=$-0.93
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16244 SL=1.16379 TP=1.15850
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16244 exit=1.16379 pnl=$-1.42
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16364 SL=1.16314 TP=1.16605
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16364 exit=1.16314 pnl=$-0.57
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16372 SL=1.16319 TP=1.16582
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16372 exit=1.16319 pnl=$-0.60
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16293 SL=1.16545 TP=1.16154
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16293 exit=1.16545 pnl=$-2.59
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [liquidity_sweep] OPEN SELL EURUSD @ 1.16412 SL=1.16520 TP=1.16235
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16412 exit=1.16235 pnl=$+1.70
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16171 SL=1.16639 TP=1.15990
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16171 exit=1.15990 pnl=$+1.74
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.15986 SL=1.16123 TP=1.15784
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15986 exit=1.16123 pnl=$-1.44
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16115 SL=1.15836 TP=1.16171
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16115 exit=1.16171 pnl=$+0.49
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16125 SL=1.15834 TP=1.16164
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16125 exit=1.16164 pnl=$+0.32
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16360 SL=1.16173 TP=1.16734
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16360 exit=1.16734 pnl=$+3.67
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16680 SL=1.16503 TP=1.16902
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           |   [EOD] BUY EURUSD closed at data end | pnl=$-0.78
+2026-05-30 08:07:19 | INFO     | mt5ai.backtest           | Backtest END: EURUSD H1 | trades=35 net_pnl=$+3.42 win_rate=45.7%
+2026-05-30 08:07:19 | WARNING  | mt5ai.backtest           | Symbol 'FAKESYMBOL' not in symbols.yaml — skipping
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           | Backtest START: EURUSD H1 | balance=$10,000 lot=0.01 commission=$7.0/lot
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           | Simulating 290 bars (2026-05-13 19:00 → 2026-05-29 20:00)
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.17129 SL=1.17205 TP=1.16951
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.17129 exit=1.17205 pnl=$-0.83
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.17178 SL=1.17206 TP=1.17051
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.17178 exit=1.17051 pnl=$+1.20
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.17070 SL=1.17013 TP=1.17173
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.17070 exit=1.17013 pnl=$-0.64
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16992 SL=1.17076 TP=1.16831
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16992 exit=1.16831 pnl=$+1.54
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16781 SL=1.16900 TP=1.16591
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16781 exit=1.16591 pnl=$+1.83
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16550 SL=1.16653 TP=1.16383
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16550 exit=1.16383 pnl=$+1.60
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16320 SL=1.16497 TP=1.16143
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16320 exit=1.16497 pnl=$-1.84
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16489 SL=1.16605 TP=1.16267
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16489 exit=1.16267 pnl=$+2.15
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16294 SL=1.16589 TP=1.16124
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16294 exit=1.16124 pnl=$+1.63
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16136 SL=1.16217 TP=1.15931
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16136 exit=1.16217 pnl=$-0.88
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16214 SL=1.16158 TP=1.16304
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16214 exit=1.16304 pnl=$+0.83
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16353 SL=1.16581 TP=1.16136
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16353 exit=1.16581 pnl=$-2.35
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16443 SL=1.16248 TP=1.16661
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16443 exit=1.16248 pnl=$-2.02
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.16231 SL=1.16336 TP=1.16023
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16231 exit=1.16023 pnl=$+2.01
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15954 SL=1.16071 TP=1.15724
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15954 exit=1.16071 pnl=$-1.24
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16103 SL=1.15910 TP=1.16174
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16103 exit=1.15910 pnl=$-2.00
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN SELL EURUSD @ 1.15899 SL=1.15961 TP=1.15703
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15899 exit=1.15961 pnl=$-0.69
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16006 SL=1.15913 TP=1.16167
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16006 exit=1.15913 pnl=$-1.00
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15909 SL=1.15963 TP=1.15720
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15909 exit=1.15963 pnl=$-0.61
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [breakout] OPEN BUY EURUSD @ 1.16178 SL=1.16083 TP=1.16419
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16178 exit=1.16419 pnl=$+2.34
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16172 SL=1.16336 TP=1.15954
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16172 exit=1.15954 pnl=$+2.11
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16068 SL=1.16260 TP=1.15846
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16068 exit=1.16260 pnl=$-1.99
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [ema_trend] OPEN SELL EURUSD @ 1.16072 SL=1.16371 TP=1.15797
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16072 exit=1.15797 pnl=$+2.68
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN SELL EURUSD @ 1.15925 SL=1.16011 TP=1.15514
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15925 exit=1.16011 pnl=$-0.93
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN SELL EURUSD @ 1.16244 SL=1.16379 TP=1.15850
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16244 exit=1.16379 pnl=$-1.42
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16364 SL=1.16314 TP=1.16605
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16364 exit=1.16314 pnl=$-0.57
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN BUY EURUSD @ 1.16372 SL=1.16319 TP=1.16582
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] BUY EURUSD | entry=1.16372 exit=1.16319 pnl=$-0.60
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16293 SL=1.16545 TP=1.16154
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.16293 exit=1.16545 pnl=$-2.59
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [liquidity_sweep] OPEN SELL EURUSD @ 1.16412 SL=1.16520 TP=1.16235
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16412 exit=1.16235 pnl=$+1.70
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [market_structure] OPEN SELL EURUSD @ 1.16171 SL=1.16639 TP=1.15990
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] SELL EURUSD | entry=1.16171 exit=1.15990 pnl=$+1.74
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [fair_value_gap] OPEN SELL EURUSD @ 1.15986 SL=1.16123 TP=1.15784
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [SL] SELL EURUSD | entry=1.15986 exit=1.16123 pnl=$-1.44
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16115 SL=1.15836 TP=1.16171
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16115 exit=1.16171 pnl=$+0.49
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [order_block] OPEN BUY EURUSD @ 1.16125 SL=1.15834 TP=1.16164
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16125 exit=1.16164 pnl=$+0.32
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16360 SL=1.16173 TP=1.16734
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [TP] BUY EURUSD | entry=1.16360 exit=1.16734 pnl=$+3.67
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [session_breakout] OPEN BUY EURUSD @ 1.16680 SL=1.16503 TP=1.16902
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           |   [EOD] BUY EURUSD closed at data end | pnl=$-0.78
+2026-05-30 08:52:55 | INFO     | mt5ai.backtest           | Backtest END: EURUSD H1 | trades=35 net_pnl=$+3.42 win_rate=45.7%

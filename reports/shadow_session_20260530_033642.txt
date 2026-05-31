@@ -1,0 +1,32 @@
+============================================================
+  MT5 QUANTUM AI — SHADOW TRADING SESSION REPORT
+============================================================
+  Date:      2026-05-30 03:36 UTC
+  Account:   #263433713 | Exness Technologies Ltd
+  Balance:   1000.00 USC
+  Mode:      SHADOW (no real orders placed)
+------------------------------------------------------------
+  Cycles run:        5
+  Total signals:     20
+  Shadow trades:     10
+  Signals logged:    15
+------------------------------------------------------------
+  CYCLE BREAKDOWN:
+    Cycle 1: signals=4 trades=2
+    Cycle 2: signals=4 trades=2
+    Cycle 3: signals=4 trades=2
+    Cycle 4: signals=4 trades=2
+    Cycle 5: signals=4 trades=2
+------------------------------------------------------------
+  SIGNALS THIS SESSION:
+    fair_value_gap         BUY EURUSD @ 1.16609 str=0.75 RR=1.93
+    fair_value_gap         BUY GBPUSD @ 1.34592 str=0.70 RR=1.68
+    order_block            SELL GBPUSD @ 1.34592 str=0.40 RR=0.45
+    fair_value_gap         BUY EURUSD @ 1.16609 str=0.75 RR=1.93
+    fair_value_gap         BUY GBPUSD @ 1.34592 str=0.70 RR=1.68
+    order_block            SELL GBPUSD @ 1.34592 str=0.40 RR=0.45
+    fair_value_gap         BUY EURUSD @ 1.16609 str=0.75 RR=1.93
+    fair_value_gap         BUY GBPUSD @ 1.34592 str=0.70 RR=1.68
+    order_block            SELL GBPUSD @ 1.34592 str=0.40 RR=0.45
+    fair_value_gap         BUY EURUSD @ 1.16609 str=0.75 RR=1.93
+============================================================

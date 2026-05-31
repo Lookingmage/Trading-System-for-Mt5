@@ -1,0 +1,241 @@
+# ============================================================
+# MT5 Quantum AI — Symbol Configuration
+# ============================================================
+# Active pairs: BTCUSD, XAGUSD, XAUUSD, USDCAD, USDJPY,
+#               NZDUSD, AUDUSD, GBPUSD, EURUSD
+#
+# Market hours:
+#   Crypto  (BTCUSD)              → sessions: ["all"]     = 24/7
+#   Forex   (EUR, GBP, AUD, etc.) → sessions: ["weekday"] = 24/5
+#   Metals  (XAUUSD, XAGUSD)      → sessions: ["weekday"] = 24/5
+#
+# broker_symbol: exact name on Exness cent account (uses "c" suffix).
+# ============================================================
+
+symbols:
+
+  # ── Forex Majors ───────────────────────────────────────────
+
+  EURUSD:
+    enabled: true
+    broker_symbol: "EURUSDc"
+    category: "forex"
+    description: "Euro vs US Dollar"
+    pip_size: 0.0001
+    pip_value_usd: 10.0
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 2.0
+    min_atr_pips: 5.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]           # 24/5 — Mon 00:00 to Fri 23:59 UTC
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  GBPUSD:
+    enabled: true
+    broker_symbol: "GBPUSDc"
+    category: "forex"
+    description: "British Pound vs US Dollar"
+    pip_size: 0.0001
+    pip_value_usd: 10.0
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 3.0
+    min_atr_pips: 8.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  AUDUSD:
+    enabled: true
+    broker_symbol: "AUDUSDc"
+    category: "forex"
+    description: "Australian Dollar vs US Dollar"
+    pip_size: 0.0001
+    pip_value_usd: 10.0
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 2.0
+    min_atr_pips: 5.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  NZDUSD:
+    enabled: true
+    broker_symbol: "NZDUSDc"
+    category: "forex"
+    description: "New Zealand Dollar vs US Dollar"
+    pip_size: 0.0001
+    pip_value_usd: 10.0
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 2.5
+    min_atr_pips: 5.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  USDCAD:
+    enabled: true
+    broker_symbol: "USDCADc"
+    category: "forex"
+    description: "US Dollar vs Canadian Dollar"
+    pip_size: 0.0001
+    pip_value_usd: 7.46
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 2.5
+    min_atr_pips: 5.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  USDJPY:
+    enabled: true
+    broker_symbol: "USDJPYc"
+    category: "forex"
+    description: "US Dollar vs Japanese Yen"
+    pip_size: 0.01
+    pip_value_usd: 9.09
+    min_lot: 0.01
+    max_lot: 50.0
+    lot_step: 0.01
+    spread_filter_pips: 2.0
+    min_atr_pips: 5.0
+    timeframes: ["M5", "M15", "H1", "H4"]
+    sessions: ["weekday"]
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  # ── Metals — 24/5 (same as forex) ─────────────────────────
+
+  XAUUSD:
+    enabled: true
+    broker_symbol: "XAUUSDc"
+    category: "metals"
+    description: "Gold vs US Dollar"
+    pip_size: 0.01
+    pip_value_usd: 10.0
+    min_lot: 0.01
+    max_lot: 10.0
+    lot_step: 0.01
+    spread_filter_pips: 30.0
+    min_atr_pips: 50.0
+    timeframes: ["M15", "H1", "H4"]
+    sessions: ["weekday"]           # 24/5 — same as forex
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "mtf_trend"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "session_breakout"
+      - "mss_choch"
+
+  XAGUSD:
+    enabled: true
+    broker_symbol: "XAGUSDc"
+    category: "metals"
+    description: "Silver vs US Dollar"
+    pip_size: 0.001
+    pip_value_usd: 50.0
+    min_lot: 0.01
+    max_lot: 10.0
+    lot_step: 0.01
+    spread_filter_pips: 100.0
+    min_atr_pips: 100.0
+    timeframes: ["M15", "H1", "H4"]
+    sessions: ["weekday"]           # 24/5 — same as forex
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+
+  # ── Crypto — 24/7 (never closes) ───────────────────────────
+
+  BTCUSD:
+    enabled: true
+    broker_symbol: "BTCUSDc"
+    category: "crypto"
+    description: "Bitcoin vs US Dollar"
+    pip_size: 1.0
+    pip_value_usd: 1.0
+    min_lot: 0.01
+    max_lot: 1.0
+    lot_step: 0.01
+    spread_filter_pips: 500.0
+    min_atr_pips: 500.0
+    timeframes: ["M15", "H1", "H4"]
+    sessions: ["all"]               # 24/7 — crypto never closes
+    strategies_enabled:
+      - "ema_trend"
+      - "breakout"
+      - "market_structure"
+      - "order_block"
+      - "fair_value_gap"
+      - "liquidity_sweep"
+      - "mss_choch"
